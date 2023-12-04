@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const result = await response.text();
       word = JSON.parse(result).word;
     } catch (error) {
-      console.error(error);
     }
   }
 
