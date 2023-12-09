@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentWordArr = getCurrentWordArr();
     if (currentWordArr.length !== 6) {
       window.alert("Word must be 6 letters.");
+      return;
     }
 
     const currentWord = currentWordArr.join("");
